@@ -3,12 +3,12 @@ package ba.unsa.etf.rpr;
 import java.util.ArrayList;
 
 public class Korpa {
-    private ArrayList<Artikl> korpa;
+    private ArrayList<Artikl> korpa=null;
     private int kapacitet=50;
     public  Artikl izbaciArtiklSaKodom(String kod) {
         Artikl upamti=null;
         for (Artikl A: korpa) {
-            if(kod.equals(A.getNaziv())) {
+            if(kod.equals(A.getKod())) {
                 upamti=A;
                 korpa.remove(A);
             }
@@ -17,6 +17,7 @@ public class Korpa {
     }
     public boolean dodajArtikl(Artikl a) {
         // A= new Artikl(a.getNaziv(), a.getCijena(),a.getKod());
+        if(korpa==null)korpa = new ArrayList<Artikl>();
         if(korpa.size()>=kapacitet)return false;
         korpa.add(a);
         return true;
@@ -31,5 +32,8 @@ public class Korpa {
     }
     public Artikl[] getArtikli() {
         return korpa.toArray(new Artikl[korpa.size()]);
+    }
+    public int getBrojArtikala() {
+        return korpa.size();
     }
 }
