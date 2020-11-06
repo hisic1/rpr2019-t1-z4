@@ -14,6 +14,8 @@ public class Supermarket {
     }
 
     public void dodajArtikl(Artikl a) {
+        if(Police==null)Police = new ArrayList<Artikl>();
+        //if(Police.size()>=kapacitet)return false;
         //Artikl A= new Artikl(a.getNaziv(),a.getCijena(), a.getKod());
         Police.add(a);
     }

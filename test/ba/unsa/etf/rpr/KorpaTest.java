@@ -15,16 +15,12 @@ class KorpaTest {
         assertEquals(korpa.getBrojArtikala(), 1);
         assertEquals(korpa.dajUkupnuCijenuArtikala(), 500);
     }
-
-    @Test
-    void dodajArtikl() {
-    }
-
-    @Test
-    void dajUkupnuCijenuArtikala() {
-    }
-
     @Test
     void getArtikli() {
+        Korpa korpa = new Korpa();
+        korpa.dodajArtikl(new Artikl("Kruska", 2, "1"));
+        korpa.dodajArtikl(new Artikl("Jabuka", 1, "2"));
+        korpa.dodajArtikl(new Artikl("Banana", 3, "2"));
+        assertEquals(korpa.getBrojArtikala(),3);
     }
 }
