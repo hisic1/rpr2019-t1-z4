@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Supermarket {
     private ArrayList<Artikl> Police;
-    // int Br_artikala;
+    private int kapacitet=1000;
     public Artikl izbaciArtiklSaKodom(String kod) {
         for (Artikl A: Police) {
             if(kod.equals(A.getNaziv()))
@@ -14,7 +14,7 @@ public class Supermarket {
     }
 
     public void dodajArtikl(Artikl a) {
-        Artikl A= new Artikl(a.getNaziv(),a.getCijena(), a.getKod());
+        //Artikl A= new Artikl(a.getNaziv(),a.getCijena(), a.getKod());
         Police.add(a);
     }
 

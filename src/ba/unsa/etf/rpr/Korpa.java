@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Korpa {
     private ArrayList<Artikl> korpa;
+    private int kapacitet=50;
     public  Artikl izbaciArtiklSaKodom(String kod) {
         Artikl upamti=null;
         for (Artikl A: korpa) {
@@ -15,9 +16,10 @@ public class Korpa {
         return upamti;
     }
     public boolean dodajArtikl(Artikl a) {
-        Artikl A= new Artikl(a.getNaziv(), a.getCijena(),a.getKod());
+        // A= new Artikl(a.getNaziv(), a.getCijena(),a.getKod());
+        if(korpa.size()>=kapacitet)return false;
         korpa.add(a);
-        return false;
+        return true;
     }
 
     public int dajUkupnuCijenuArtikala() {
