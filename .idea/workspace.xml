@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90e1633-fbcf-4a4b-a9db-ddb2b0163cc0" name="Default Changelist" comment="3 testa, i popravaljena alokacija u classi Supermarket">
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="f90e1633-fbcf-4a4b-a9db-ddb2b0163cc0" name="Default Changelist" comment="5 testova ispravnih implementirano" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604680783879</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5 testova ispravnih implementirano">
+      <created>1604681500082</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604681500082</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +217,8 @@
     <MESSAGE value="Drugi commit" />
     <MESSAGE value="Dva testa ferceraju" />
     <MESSAGE value="3 testa, i popravaljena alokacija u classi Supermarket" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 testa, i popravaljena alokacija u classi Supermarket" />
+    <MESSAGE value="5 testova ispravnih implementirano" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 testova ispravnih implementirano" />
   </component>
   <component name="WindowStateProjectService">
     <state x="498" y="0" key="#Project_Structure" timestamp="1604678593333">
@@ -234,22 +237,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="473" y="179" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1604680023510" />
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1604681103302">
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1604681462607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1604681103302" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1604681103301">
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1604681462607" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1604681462606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1604681103301" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1604681103301">
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1604681462606" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1604681462606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1604681103301" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1604681103301">
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1604681462606" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1604681462607">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1604681103301" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824/-1024.0.1024.728@0.0.1536.824" timestamp="1604681462607" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1604076490445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
