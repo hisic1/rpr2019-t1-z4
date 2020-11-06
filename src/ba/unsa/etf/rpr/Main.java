@@ -48,7 +48,7 @@ public class Main {
 //      rjesavaju preko koda. Kupcu je potrebno omoguciti opciju da se prekine program, odnosno da odustane od kupovine,
 //      ili da ide na checkout gdje se obracunava potpuni iznos. Placanje se vrsi unosom pri cemu se validira da li je
 //      unesena negativna, odnosno dovoljna suma novca.
-
+        //ArrayList<String> supermarket = new ArrayList<String>();
         unosArtikalaUMarket();
         for(;;){
             System.out.print("0 - odustani\n1 - dodaj u korpu\n2 - izbaci iz korpe\n3 - checkout\nUnesite opciju: ");
@@ -61,7 +61,7 @@ public class Main {
             }
             else if(opcija == 1){
                 System.out.println("Dodavanje artikla u korpu\nArtikli u marketu su: ");
-                ispisArtikala(supermarket.getArtikli());
+                ispisArtikala(supermarket.getArtikli()); //
                 System.out.println("Unesite kod artikla (unesite malo slovo \"c\" za odustajanje): ");
                 String kod = scanner.nextLine();
                 kod = scanner.nextLine();
